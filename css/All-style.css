@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Yuji Syuku', serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    min-width: 700px;
+    min-height: 700px;
+}
+header{ 
+    background-color: rgb(102, 229, 102) ;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;   
+}
+header a img{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.Bottom{
+    background-color:rgb(102, 229, 102) ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
+}
+.Prof{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+    margin: auto 30px auto 30px;
+}
+.Dummy{
+    border:1px solid paleturquoise
+}
+
+.Any_Links{
+    text-align: center;
+    font-size: 13px;
+    padding: 1rem 1rem 1rem 1rem; 
+    margin: auto auto auto auto;  
+}
+.Any_Links li{
+    list-style: none;
+}
+.Any_Links a:hover{
+    text-decoration: none;
+}
+.Page_Up{
+    width: 140px;
+    height: 125px;
+}
